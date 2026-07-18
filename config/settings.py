@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     # Aplicaciones de terceros
     "rest_framework",
     "corsheaders",
+    "oauth2_provider",
 
     # Aplicaciones propias
     "catalogo",
@@ -136,6 +137,12 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "oauth2_provider.contrib.rest_framework.OAuth2Authentication",
+    ],
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest_framework.permissions.IsAuthenticated",
+    ],
     "DEFAULT_RENDERER_CLASSES": [
         "rest_framework.renderers.JSONRenderer",
         "rest_framework.renderers.BrowsableAPIRenderer",

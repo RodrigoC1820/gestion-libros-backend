@@ -1,14 +1,16 @@
 from django.db.models import Count
 from django.db.models.deletion import ProtectedError
-from rest_framework import filters, status, viewsets
-from rest_framework.decorators import api_view
+from rest_framework import filters, permissions, status, viewsets
+from rest_framework.decorators import api_view, permission_classes
 from rest_framework.response import Response
 
 from .models import Autor, Libro
 from .serializers import AutorSerializer, LibroSerializer
 
 
+
 @api_view(["GET"])
+@permission_classes([permissions.AllowAny])
 def api_inicio(request):
     """
     Endpoint inicial para comprobar que la API está funcionando.
