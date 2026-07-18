@@ -58,6 +58,9 @@ class AutorSerializer(serializers.ModelSerializer):
         return f"{obj.nombre} {obj.apellido}"
 
     def get_total_libros(self, obj):
+        if hasattr(obj, "total_libros"):
+            return obj.total_libros
+
         return obj.libros.count()
 
     def validate_nombre(self, value):
@@ -90,10 +93,7 @@ class AutorSerializer(serializers.ModelSerializer):
 
 
 class LibroSerializer(serializers.ModelSerializer):
-    autor_nombre = serializers.CharField(
-        source="autor.__str__",
-        read_only=True,
-    )
+    autor_nombre = serializers.SerializerMethodField()
 
     class Meta:
         model = Libro
@@ -117,6 +117,9 @@ class LibroSerializer(serializers.ModelSerializer):
             "creado_en",
             "actualizado_en",
         )
+
+    def get_autor_nombre(self, obj):
+        return str(obj.autor)
 
     def validate_titulo(self, value):
         value = value.strip()
