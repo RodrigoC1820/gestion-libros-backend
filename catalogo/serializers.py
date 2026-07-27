@@ -2,7 +2,7 @@ from datetime import date
 
 from rest_framework import serializers
 
-from .models import Autor, Libro
+from .models import Autor, Categoria, Libro
 
 
 class LibroResumenSerializer(serializers.ModelSerializer):
@@ -18,6 +18,7 @@ class LibroResumenSerializer(serializers.ModelSerializer):
             "isbn",
             "genero",
             "disponible",
+            "portada",
         )
 
 
@@ -26,6 +27,7 @@ class AutorSerializer(serializers.ModelSerializer):
         many=True,
         read_only=True,
     )
+
     nombre_completo = serializers.SerializerMethodField()
     total_libros = serializers.SerializerMethodField()
 
@@ -40,11 +42,13 @@ class AutorSerializer(serializers.ModelSerializer):
             "fecha_nacimiento",
             "biografia",
             "activo",
+            "foto",
             "libros",
             "total_libros",
             "creado_en",
             "actualizado_en",
         )
+
         read_only_fields = (
             "id",
             "nombre_completo",
@@ -91,6 +95,30 @@ class AutorSerializer(serializers.ModelSerializer):
 
         return value
 
+    def validate_foto(self, value):
+        if not value:
+            return value
+
+        tipos_permitidos = (
+            "image/jpeg",
+            "image/png",
+            "image/webp",
+        )
+
+        if value.content_type not in tipos_permitidos:
+            raise serializers.ValidationError(
+                "La foto debe estar en formato JPG, PNG o WEBP."
+            )
+
+        limite_bytes = 5 * 1024 * 1024
+
+        if value.size > limite_bytes:
+            raise serializers.ValidationError(
+                "La foto no puede superar los 5 MB."
+            )
+
+        return value
+
 
 class LibroSerializer(serializers.ModelSerializer):
     autor_nombre = serializers.SerializerMethodField()
@@ -108,9 +136,11 @@ class LibroSerializer(serializers.ModelSerializer):
             "numero_paginas",
             "idioma",
             "disponible",
+            "portada",
             "creado_en",
             "actualizado_en",
         )
+
         read_only_fields = (
             "id",
             "autor_nombre",
@@ -170,6 +200,82 @@ class LibroSerializer(serializers.ModelSerializer):
         if not value.activo:
             raise serializers.ValidationError(
                 "No se puede asignar un libro a un autor inactivo."
+            )
+
+        return value
+
+    def validate_portada(self, value):
+        if not value:
+            return value
+
+        tipos_permitidos = (
+            "image/jpeg",
+            "image/png",
+            "image/webp",
+        )
+
+        if value.content_type not in tipos_permitidos:
+            raise serializers.ValidationError(
+                "La portada debe estar en formato JPG, PNG o WEBP."
+            )
+
+        limite_bytes = 5 * 1024 * 1024
+
+        if value.size > limite_bytes:
+            raise serializers.ValidationError(
+                "La portada no puede superar los 5 MB."
+            )
+
+        return value
+
+class CategoriaSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Categoria
+        fields = (
+            "id",
+            "nombre",
+            "imagen",
+            "activa",
+            "creado_en",
+            "actualizado_en",
+        )
+
+        read_only_fields = (
+            "id",
+            "creado_en",
+            "actualizado_en",
+        )
+
+    def validate_nombre(self, value):
+        value = value.strip()
+
+        if len(value) < 2:
+            raise serializers.ValidationError(
+                "El nombre debe tener al menos 2 caracteres."
+            )
+
+        return value
+
+    def validate_imagen(self, value):
+        if not value:
+            return value
+
+        tipos_permitidos = (
+            "image/jpeg",
+            "image/png",
+            "image/webp",
+        )
+
+        if value.content_type not in tipos_permitidos:
+            raise serializers.ValidationError(
+                "La imagen debe estar en formato JPG, PNG o WEBP."
+            )
+
+        limite_bytes = 5 * 1024 * 1024
+
+        if value.size > limite_bytes:
+            raise serializers.ValidationError(
+                "La imagen no puede superar los 5 MB."
             )
 
         return value

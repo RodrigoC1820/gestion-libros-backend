@@ -1,14 +1,31 @@
 from django.db.models import Count
 from django.db.models.deletion import ProtectedError
 
-from rest_framework import filters, permissions, status, viewsets
-from rest_framework.decorators import action, api_view, permission_classes
+from rest_framework import (
+    filters,
+    permissions,
+    status,
+    viewsets,
+)
+from rest_framework.decorators import (
+    action,
+    api_view,
+    permission_classes,
+)
+from rest_framework.parsers import (
+    FormParser,
+    JSONParser,
+    MultiPartParser,
+)
 from rest_framework.response import Response
 
-from .models import Autor, Libro
+from .models import Autor, Categoria, Libro
 from .permissions import LecturaPublicaEscrituraAutenticada
-from .serializers import AutorSerializer, LibroSerializer
-from rest_framework import filters
+from .serializers import (
+    AutorSerializer,
+    CategoriaSerializer,
+    LibroSerializer,
+)
 
 
 @api_view(["GET"])
@@ -20,12 +37,17 @@ def api_inicio(request):
 
     return Response(
         {
-            "mensaje": "API de gestión de libros funcionando correctamente",
+            "mensaje": (
+                "API de gestión de libros "
+                "funcionando correctamente"
+            ),
             "version": "1.0.0",
             "endpoints": {
                 "autores": "/api/autores/",
                 "libros": "/api/libros/",
-                "libros_destacados": "/api/libros/destacados/",
+                "libros_destacados": (
+                    "/api/libros/destacados/"
+                ),
                 "categorias": "/api/categorias/",
                 "obtener_token": "/o/token/",
                 "revocar_token": "/o/revoke_token/",
@@ -39,21 +61,25 @@ def api_inicio(request):
 @permission_classes([permissions.AllowAny])
 def listar_categorias(request):
     """
-    Devuelve una lista de categorías obtenidas a partir
-    del campo género de los libros.
+    Devuelve las categorías activas registradas en el sistema.
     """
 
     categorias = (
-        Libro.objects
-        .exclude(genero__isnull=True)
-        .exclude(genero="")
-        .values_list("genero", flat=True)
-        .distinct()
-        .order_by("genero")
+        Categoria.objects
+        .filter(activa=True)
+        .order_by("nombre")
+    )
+
+    serializer = CategoriaSerializer(
+        categorias,
+        many=True,
+        context={
+            "request": request,
+        },
     )
 
     return Response(
-        list(categorias),
+        serializer.data,
         status=status.HTTP_200_OK,
     )
 
@@ -61,22 +87,18 @@ def listar_categorias(request):
 class AutorViewSet(viewsets.ModelViewSet):
     """
     CRUD completo de autores.
-
-    Permite:
-
-    - Listar autores.
-    - Consultar un autor.
-    - Crear autores.
-    - Actualizar autores.
-    - Eliminar autores.
-    - Buscar autores.
-    - Ordenar resultados.
-    - Filtrar por estado activo.
     """
 
     serializer_class = AutorSerializer
+
     permission_classes = [
         LecturaPublicaEscrituraAutenticada,
+    ]
+
+    parser_classes = [
+        MultiPartParser,
+        FormParser,
+        JSONParser,
     ]
 
     filter_backends = [
@@ -106,9 +128,9 @@ class AutorViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         """
-        Devuelve los autores con el número total de libros.
+        Devuelve autores con el total de libros relacionados.
 
-        También permite filtrar mediante:
+        Permite:
 
         /api/autores/?activo=true
         /api/autores/?activo=false
@@ -116,20 +138,37 @@ class AutorViewSet(viewsets.ModelViewSet):
 
         queryset = (
             Autor.objects
-            .annotate(total_libros=Count("libros"))
+            .annotate(
+                total_libros=Count("libros"),
+            )
             .prefetch_related("libros")
         )
 
-        activo = self.request.query_params.get("activo")
+        activo = self.request.query_params.get(
+            "activo",
+        )
 
         if activo is not None:
             valor = activo.lower()
 
-            if valor in ("true", "1", "si", "sí"):
-                queryset = queryset.filter(activo=True)
+            if valor in (
+                "true",
+                "1",
+                "si",
+                "sí",
+            ):
+                queryset = queryset.filter(
+                    activo=True,
+                )
 
-            elif valor in ("false", "0", "no"):
-                queryset = queryset.filter(activo=False)
+            elif valor in (
+                "false",
+                "0",
+                "no",
+            ):
+                queryset = queryset.filter(
+                    activo=False,
+                )
 
         return queryset
 
@@ -147,8 +186,8 @@ class AutorViewSet(viewsets.ModelViewSet):
             return Response(
                 {
                     "detalle": (
-                        "No se puede eliminar el autor porque tiene "
-                        "libros relacionados."
+                        "No se puede eliminar el autor porque "
+                        "tiene libros relacionados."
                     )
                 },
                 status=status.HTTP_409_CONFLICT,
@@ -162,22 +201,18 @@ class AutorViewSet(viewsets.ModelViewSet):
 class LibroViewSet(viewsets.ModelViewSet):
     """
     CRUD completo de libros.
-
-    Permite:
-
-    - Listar libros.
-    - Consultar un libro.
-    - Crear libros.
-    - Actualizar libros.
-    - Eliminar libros.
-    - Buscar por título, ISBN, género, idioma o autor.
-    - Filtrar por autor, género, idioma y disponibilidad.
-    - Obtener libros destacados.
     """
 
     serializer_class = LibroSerializer
+
     permission_classes = [
         LecturaPublicaEscrituraAutenticada,
+    ]
+
+    parser_classes = [
+        MultiPartParser,
+        FormParser,
+        JSONParser,
     ]
 
     filter_backends = [
@@ -218,12 +253,24 @@ class LibroViewSet(viewsets.ModelViewSet):
         /api/libros/?disponible=true
         """
 
-        queryset = Libro.objects.select_related("autor").all()
+        queryset = (
+            Libro.objects
+            .select_related("autor")
+            .all()
+        )
 
-        autor_id = self.request.query_params.get("autor")
-        genero = self.request.query_params.get("genero")
-        idioma = self.request.query_params.get("idioma")
-        disponible = self.request.query_params.get("disponible")
+        autor_id = self.request.query_params.get(
+            "autor",
+        )
+        genero = self.request.query_params.get(
+            "genero",
+        )
+        idioma = self.request.query_params.get(
+            "idioma",
+        )
+        disponible = self.request.query_params.get(
+            "disponible",
+        )
 
         if autor_id:
             queryset = queryset.filter(
@@ -243,12 +290,21 @@ class LibroViewSet(viewsets.ModelViewSet):
         if disponible is not None:
             valor = disponible.lower()
 
-            if valor in ("true", "1", "si", "sí"):
+            if valor in (
+                "true",
+                "1",
+                "si",
+                "sí",
+            ):
                 queryset = queryset.filter(
                     disponible=True,
                 )
 
-            elif valor in ("false", "0", "no"):
+            elif valor in (
+                "false",
+                "0",
+                "no",
+            ):
                 queryset = queryset.filter(
                     disponible=False,
                 )
@@ -258,16 +314,14 @@ class LibroViewSet(viewsets.ModelViewSet):
     @action(
         detail=False,
         methods=["get"],
-        permission_classes=[permissions.AllowAny],
+        permission_classes=[
+            permissions.AllowAny,
+        ],
         url_path="destacados",
     )
     def destacados(self, request):
         """
-        Devuelve hasta cuatro libros disponibles para la página principal.
-
-        Endpoint:
-
-        GET /api/libros/destacados/
+        Devuelve hasta cuatro libros disponibles.
         """
 
         libros = (

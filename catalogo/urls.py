@@ -9,9 +9,6 @@ from .views import (
 )
 
 
-app_name = "catalogo"
-
-
 router = DefaultRouter()
 
 router.register(
@@ -36,7 +33,7 @@ urlpatterns = [
     path(
         "categorias/",
         listar_categorias,
-        name="categorias",
+        name="listar-categorias",
     ),
     path(
         "",

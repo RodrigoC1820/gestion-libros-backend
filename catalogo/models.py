@@ -29,6 +29,14 @@ class Autor(models.Model):
         default=True,
         verbose_name="activo",
     )
+
+    foto = models.ImageField(
+        upload_to="autores/",
+        null=True,
+        blank=True,
+        verbose_name="foto",
+    )
+
     creado_en = models.DateTimeField(
         auto_now_add=True,
         verbose_name="fecha de creación",
@@ -83,6 +91,14 @@ class Libro(models.Model):
         default=True,
         verbose_name="disponible",
     )
+
+    portada = models.ImageField(
+        upload_to="libros/",
+        null=True,
+        blank=True,
+        verbose_name="portada",
+    )
+
     creado_en = models.DateTimeField(
         auto_now_add=True,
         verbose_name="fecha de creación",
@@ -99,3 +115,36 @@ class Libro(models.Model):
 
     def __str__(self):
         return self.titulo
+
+class Categoria(models.Model):
+    nombre = models.CharField(
+        max_length=80,
+        unique=True,
+        verbose_name="nombre",
+    )
+    imagen = models.ImageField(
+        upload_to="categorias/",
+        null=True,
+        blank=True,
+        verbose_name="imagen",
+    )
+    activa = models.BooleanField(
+        default=True,
+        verbose_name="activa",
+    )
+    creado_en = models.DateTimeField(
+        auto_now_add=True,
+        verbose_name="fecha de creación",
+    )
+    actualizado_en = models.DateTimeField(
+        auto_now=True,
+        verbose_name="última actualización",
+    )
+
+    class Meta:
+        verbose_name = "categoría"
+        verbose_name_plural = "categorías"
+        ordering = ["nombre"]
+
+    def __str__(self):
+        return self.nombre

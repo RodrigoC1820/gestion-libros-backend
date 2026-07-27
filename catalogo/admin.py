@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Autor, Libro
+from .models import Autor, Categoria, Libro
 
 
 @admin.register(Autor)
@@ -60,3 +60,17 @@ class LibroAdmin(admin.ModelAdmin):
         "actualizado_en",
     )
     autocomplete_fields = ("autor",)
+
+@admin.register(Categoria)
+class CategoriaAdmin(admin.ModelAdmin):
+    list_display = (
+        "nombre",
+        "activa",
+        "creado_en",
+    )
+    list_filter = (
+        "activa",
+    )
+    search_fields = (
+        "nombre",
+    )
