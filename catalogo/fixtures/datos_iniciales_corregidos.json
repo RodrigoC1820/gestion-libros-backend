@@ -1,0 +1,2054 @@
+[
+  {
+    "model": "catalogo.autor",
+    "pk": 1,
+    "fields": {
+      "nombre": "Gabriel",
+      "apellido": "García Márquez",
+      "nacionalidad": "Colombiana",
+      "fecha_nacimiento": "1927-03-06",
+      "biografia": "Escritor colombiano y referente del realismo mágico.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 2,
+    "fields": {
+      "nombre": "Isabel",
+      "apellido": "Allende",
+      "nacionalidad": "Chilena",
+      "fecha_nacimiento": "1942-08-02",
+      "biografia": "Escritora chilena reconocida por sus novelas históricas y familiares.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 3,
+    "fields": {
+      "nombre": "Mario",
+      "apellido": "Vargas Llosa",
+      "nacionalidad": "Peruana",
+      "fecha_nacimiento": "1936-03-28",
+      "biografia": "Novelista y ensayista peruano.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 4,
+    "fields": {
+      "nombre": "Julio",
+      "apellido": "Cortázar",
+      "nacionalidad": "Argentina",
+      "fecha_nacimiento": "1914-08-26",
+      "biografia": "Escritor argentino destacado por sus cuentos y novelas experimentales.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 5,
+    "fields": {
+      "nombre": "Jorge Luis",
+      "apellido": "Borges",
+      "nacionalidad": "Argentina",
+      "fecha_nacimiento": "1899-08-24",
+      "biografia": "Escritor argentino conocido por sus cuentos, ensayos y poesía.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 6,
+    "fields": {
+      "nombre": "Paulo",
+      "apellido": "Coelho",
+      "nacionalidad": "Brasileña",
+      "fecha_nacimiento": "1947-08-24",
+      "biografia": "Escritor brasileño de novelas de crecimiento personal.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 7,
+    "fields": {
+      "nombre": "Stephen",
+      "apellido": "King",
+      "nacionalidad": "Estadounidense",
+      "fecha_nacimiento": "1947-09-21",
+      "biografia": "Autor estadounidense de terror, suspenso y fantasía.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 8,
+    "fields": {
+      "nombre": "Joanne",
+      "apellido": "Rowling",
+      "nacionalidad": "Británica",
+      "fecha_nacimiento": "1965-07-31",
+      "biografia": "Escritora británica de literatura fantástica.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 9,
+    "fields": {
+      "nombre": "George R. R.",
+      "apellido": "Martin",
+      "nacionalidad": "Estadounidense",
+      "fecha_nacimiento": "1948-09-20",
+      "biografia": "Escritor estadounidense de fantasía épica y ciencia ficción.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 10,
+    "fields": {
+      "nombre": "Agatha",
+      "apellido": "Christie",
+      "nacionalidad": "Británica",
+      "fecha_nacimiento": "1890-09-15",
+      "biografia": "Novelista británica especializada en misterio y novela policial.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 11,
+    "fields": {
+      "nombre": "Arthur Conan",
+      "apellido": "Doyle",
+      "nacionalidad": "Británica",
+      "fecha_nacimiento": "1859-05-22",
+      "biografia": "Escritor británico creador de relatos detectivescos.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 12,
+    "fields": {
+      "nombre": "Edgar Allan",
+      "apellido": "Poe",
+      "nacionalidad": "Estadounidense",
+      "fecha_nacimiento": "1809-01-19",
+      "biografia": "Escritor estadounidense de cuentos de misterio y terror.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 13,
+    "fields": {
+      "nombre": "Miguel de",
+      "apellido": "Cervantes",
+      "nacionalidad": "Española",
+      "fecha_nacimiento": "1547-09-29",
+      "biografia": "Novelista, poeta y dramaturgo español.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 14,
+    "fields": {
+      "nombre": "William",
+      "apellido": "Shakespeare",
+      "nacionalidad": "Británica",
+      "fecha_nacimiento": "1564-04-23",
+      "biografia": "Dramaturgo y poeta inglés.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 15,
+    "fields": {
+      "nombre": "Oscar",
+      "apellido": "Wilde",
+      "nacionalidad": "Irlandesa",
+      "fecha_nacimiento": "1854-10-16",
+      "biografia": "Escritor, poeta y dramaturgo irlandés.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 16,
+    "fields": {
+      "nombre": "Ernest",
+      "apellido": "Hemingway",
+      "nacionalidad": "Estadounidense",
+      "fecha_nacimiento": "1899-07-21",
+      "biografia": "Novelista y periodista estadounidense.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 17,
+    "fields": {
+      "nombre": "Franz",
+      "apellido": "Kafka",
+      "nacionalidad": "Checa",
+      "fecha_nacimiento": "1883-07-03",
+      "biografia": "Escritor de lengua alemana nacido en Praga.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 18,
+    "fields": {
+      "nombre": "Fiódor",
+      "apellido": "Dostoyevski",
+      "nacionalidad": "Rusa",
+      "fecha_nacimiento": "1821-11-11",
+      "biografia": "Novelista ruso destacado por su profundidad psicológica.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 19,
+    "fields": {
+      "nombre": "León",
+      "apellido": "Tolstói",
+      "nacionalidad": "Rusa",
+      "fecha_nacimiento": "1828-09-09",
+      "biografia": "Novelista ruso y pensador social.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 20,
+    "fields": {
+      "nombre": "Victor",
+      "apellido": "Hugo",
+      "nacionalidad": "Francesa",
+      "fecha_nacimiento": "1802-02-26",
+      "biografia": "Poeta, dramaturgo y novelista francés.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 21,
+    "fields": {
+      "nombre": "Jane",
+      "apellido": "Austen",
+      "nacionalidad": "Británica",
+      "fecha_nacimiento": "1775-12-16",
+      "biografia": "Novelista británica reconocida por su narrativa social.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 22,
+    "fields": {
+      "nombre": "Charles",
+      "apellido": "Dickens",
+      "nacionalidad": "Británica",
+      "fecha_nacimiento": "1812-02-07",
+      "biografia": "Novelista inglés del siglo XIX.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 23,
+    "fields": {
+      "nombre": "J. R. R.",
+      "apellido": "Tolkien",
+      "nacionalidad": "Británica",
+      "fecha_nacimiento": "1892-01-03",
+      "biografia": "Escritor y filólogo británico de fantasía épica.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 24,
+    "fields": {
+      "nombre": "Dan",
+      "apellido": "Brown",
+      "nacionalidad": "Estadounidense",
+      "fecha_nacimiento": "1964-06-22",
+      "biografia": "Autor estadounidense de novelas de misterio y suspenso.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 25,
+    "fields": {
+      "nombre": "Haruki",
+      "apellido": "Murakami",
+      "nacionalidad": "Japonesa",
+      "fecha_nacimiento": "1949-01-12",
+      "biografia": "Novelista japonés de ficción contemporánea.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 26,
+    "fields": {
+      "nombre": "Antoine",
+      "apellido": "de Saint-Exupéry",
+      "nacionalidad": "Francesa",
+      "fecha_nacimiento": "1900-06-29",
+      "biografia": "Escritor y aviador francés.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 27,
+    "fields": {
+      "nombre": "George",
+      "apellido": "Orwell",
+      "nacionalidad": "Británica",
+      "fecha_nacimiento": "1903-06-25",
+      "biografia": "Escritor y periodista británico.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 28,
+    "fields": {
+      "nombre": "Hermann",
+      "apellido": "Hesse",
+      "nacionalidad": "Alemana",
+      "fecha_nacimiento": "1877-07-02",
+      "biografia": "Escritor alemán nacionalizado suizo.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 29,
+    "fields": {
+      "nombre": "Virginia",
+      "apellido": "Woolf",
+      "nacionalidad": "Británica",
+      "fecha_nacimiento": "1882-01-25",
+      "biografia": "Novelista y ensayista británica.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.autor",
+    "pk": 30,
+    "fields": {
+      "nombre": "Mary",
+      "apellido": "Shelley",
+      "nacionalidad": "Británica",
+      "fecha_nacimiento": "1797-08-30",
+      "biografia": "Escritora británica de narrativa gótica.",
+      "activo": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 1,
+    "fields": {
+      "autor": 1,
+      "titulo": "Cien años de soledad",
+      "isbn": "9780000000001",
+      "genero": "Novela",
+      "fecha_publicacion": "1957-04-06",
+      "numero_paginas": 157,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 2,
+    "fields": {
+      "autor": 1,
+      "titulo": "El amor en los tiempos del cólera",
+      "isbn": "9780000000002",
+      "genero": "Novela",
+      "fecha_publicacion": "1964-07-11",
+      "numero_paginas": 194,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 3,
+    "fields": {
+      "autor": 1,
+      "titulo": "Crónica de una muerte anunciada",
+      "isbn": "9780000000003",
+      "genero": "Novela",
+      "fecha_publicacion": "1971-10-16",
+      "numero_paginas": 231,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 4,
+    "fields": {
+      "autor": 1,
+      "titulo": "El coronel no tiene quien le escriba",
+      "isbn": "9780000000004",
+      "genero": "Novela",
+      "fecha_publicacion": "1978-01-21",
+      "numero_paginas": 268,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 5,
+    "fields": {
+      "autor": 2,
+      "titulo": "La casa de los espíritus",
+      "isbn": "9780000000005",
+      "genero": "Novela",
+      "fecha_publicacion": "1985-04-26",
+      "numero_paginas": 305,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 6,
+    "fields": {
+      "autor": 2,
+      "titulo": "Eva Luna",
+      "isbn": "9780000000006",
+      "genero": "Novela",
+      "fecha_publicacion": "1992-07-04",
+      "numero_paginas": 342,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 7,
+    "fields": {
+      "autor": 2,
+      "titulo": "Paula",
+      "isbn": "9780000000007",
+      "genero": "Memorias",
+      "fecha_publicacion": "1999-10-09",
+      "numero_paginas": 379,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 8,
+    "fields": {
+      "autor": 2,
+      "titulo": "Inés del alma mía",
+      "isbn": "9780000000008",
+      "genero": "Novela histórica",
+      "fecha_publicacion": "2006-01-14",
+      "numero_paginas": 416,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 9,
+    "fields": {
+      "autor": 3,
+      "titulo": "La ciudad y los perros",
+      "isbn": "9780000000009",
+      "genero": "Novela",
+      "fecha_publicacion": "2013-04-19",
+      "numero_paginas": 453,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 10,
+    "fields": {
+      "autor": 3,
+      "titulo": "La fiesta del Chivo",
+      "isbn": "9780000000010",
+      "genero": "Novela",
+      "fecha_publicacion": "2020-07-24",
+      "numero_paginas": 490,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 11,
+    "fields": {
+      "autor": 3,
+      "titulo": "Conversación en La Catedral",
+      "isbn": "9780000000011",
+      "genero": "Novela",
+      "fecha_publicacion": "1953-10-02",
+      "numero_paginas": 527,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 12,
+    "fields": {
+      "autor": 3,
+      "titulo": "Travesuras de la niña mala",
+      "isbn": "9780000000012",
+      "genero": "Novela",
+      "fecha_publicacion": "1960-01-07",
+      "numero_paginas": 564,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 13,
+    "fields": {
+      "autor": 4,
+      "titulo": "Rayuela",
+      "isbn": "9780000000013",
+      "genero": "Novela",
+      "fecha_publicacion": "1967-04-12",
+      "numero_paginas": 601,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 14,
+    "fields": {
+      "autor": 4,
+      "titulo": "Bestiario",
+      "isbn": "9780000000014",
+      "genero": "Cuento",
+      "fecha_publicacion": "1974-07-17",
+      "numero_paginas": 638,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 15,
+    "fields": {
+      "autor": 4,
+      "titulo": "Final del juego",
+      "isbn": "9780000000015",
+      "genero": "Cuento",
+      "fecha_publicacion": "1981-10-22",
+      "numero_paginas": 675,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 16,
+    "fields": {
+      "autor": 4,
+      "titulo": "Las armas secretas",
+      "isbn": "9780000000016",
+      "genero": "Cuento",
+      "fecha_publicacion": "1988-01-27",
+      "numero_paginas": 712,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 17,
+    "fields": {
+      "autor": 5,
+      "titulo": "Ficciones",
+      "isbn": "9780000000017",
+      "genero": "Cuento",
+      "fecha_publicacion": "1995-04-05",
+      "numero_paginas": 749,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 18,
+    "fields": {
+      "autor": 5,
+      "titulo": "El Aleph",
+      "isbn": "9780000000018",
+      "genero": "Cuento",
+      "fecha_publicacion": "2002-07-10",
+      "numero_paginas": 786,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 19,
+    "fields": {
+      "autor": 5,
+      "titulo": "El libro de arena",
+      "isbn": "9780000000019",
+      "genero": "Cuento",
+      "fecha_publicacion": "2009-10-15",
+      "numero_paginas": 823,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 20,
+    "fields": {
+      "autor": 5,
+      "titulo": "Historia universal de la infamia",
+      "isbn": "9780000000020",
+      "genero": "Cuento",
+      "fecha_publicacion": "2016-01-20",
+      "numero_paginas": 860,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 21,
+    "fields": {
+      "autor": 6,
+      "titulo": "El alquimista",
+      "isbn": "9780000000021",
+      "genero": "Novela",
+      "fecha_publicacion": "2023-04-25",
+      "numero_paginas": 897,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 22,
+    "fields": {
+      "autor": 6,
+      "titulo": "Brida",
+      "isbn": "9780000000022",
+      "genero": "Novela",
+      "fecha_publicacion": "1956-07-03",
+      "numero_paginas": 934,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 23,
+    "fields": {
+      "autor": 6,
+      "titulo": "Veronika decide morir",
+      "isbn": "9780000000023",
+      "genero": "Novela",
+      "fecha_publicacion": "1963-10-08",
+      "numero_paginas": 971,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 24,
+    "fields": {
+      "autor": 6,
+      "titulo": "Once minutos",
+      "isbn": "9780000000024",
+      "genero": "Novela",
+      "fecha_publicacion": "1970-01-13",
+      "numero_paginas": 1008,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 25,
+    "fields": {
+      "autor": 7,
+      "titulo": "It",
+      "isbn": "9780000000025",
+      "genero": "Terror",
+      "fecha_publicacion": "1977-04-18",
+      "numero_paginas": 145,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 26,
+    "fields": {
+      "autor": 7,
+      "titulo": "El resplandor",
+      "isbn": "9780000000026",
+      "genero": "Terror",
+      "fecha_publicacion": "1984-07-23",
+      "numero_paginas": 182,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 27,
+    "fields": {
+      "autor": 7,
+      "titulo": "Carrie",
+      "isbn": "9780000000027",
+      "genero": "Terror",
+      "fecha_publicacion": "1991-10-01",
+      "numero_paginas": 219,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 28,
+    "fields": {
+      "autor": 7,
+      "titulo": "Misery",
+      "isbn": "9780000000028",
+      "genero": "Suspenso",
+      "fecha_publicacion": "1998-01-06",
+      "numero_paginas": 256,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 29,
+    "fields": {
+      "autor": 8,
+      "titulo": "Harry Potter y la piedra filosofal",
+      "isbn": "9780000000029",
+      "genero": "Fantasía",
+      "fecha_publicacion": "2005-04-11",
+      "numero_paginas": 293,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 30,
+    "fields": {
+      "autor": 8,
+      "titulo": "Harry Potter y la cámara secreta",
+      "isbn": "9780000000030",
+      "genero": "Fantasía",
+      "fecha_publicacion": "2012-07-16",
+      "numero_paginas": 330,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 31,
+    "fields": {
+      "autor": 8,
+      "titulo": "Harry Potter y el prisionero de Azkaban",
+      "isbn": "9780000000031",
+      "genero": "Fantasía",
+      "fecha_publicacion": "2019-10-21",
+      "numero_paginas": 367,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 32,
+    "fields": {
+      "autor": 8,
+      "titulo": "Harry Potter y el cáliz de fuego",
+      "isbn": "9780000000032",
+      "genero": "Fantasía",
+      "fecha_publicacion": "1952-01-26",
+      "numero_paginas": 404,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 33,
+    "fields": {
+      "autor": 9,
+      "titulo": "Juego de tronos",
+      "isbn": "9780000000033",
+      "genero": "Fantasía",
+      "fecha_publicacion": "1959-04-04",
+      "numero_paginas": 441,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 34,
+    "fields": {
+      "autor": 9,
+      "titulo": "Choque de reyes",
+      "isbn": "9780000000034",
+      "genero": "Fantasía",
+      "fecha_publicacion": "1966-07-09",
+      "numero_paginas": 478,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 35,
+    "fields": {
+      "autor": 9,
+      "titulo": "Tormenta de espadas",
+      "isbn": "9780000000035",
+      "genero": "Fantasía",
+      "fecha_publicacion": "1973-10-14",
+      "numero_paginas": 515,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 36,
+    "fields": {
+      "autor": 9,
+      "titulo": "Festín de cuervos",
+      "isbn": "9780000000036",
+      "genero": "Fantasía",
+      "fecha_publicacion": "1980-01-19",
+      "numero_paginas": 552,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 37,
+    "fields": {
+      "autor": 10,
+      "titulo": "Asesinato en el Orient Express",
+      "isbn": "9780000000037",
+      "genero": "Misterio",
+      "fecha_publicacion": "1987-04-24",
+      "numero_paginas": 589,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 38,
+    "fields": {
+      "autor": 10,
+      "titulo": "Muerte en el Nilo",
+      "isbn": "9780000000038",
+      "genero": "Misterio",
+      "fecha_publicacion": "1994-07-02",
+      "numero_paginas": 626,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 39,
+    "fields": {
+      "autor": 10,
+      "titulo": "Diez negritos",
+      "isbn": "9780000000039",
+      "genero": "Misterio",
+      "fecha_publicacion": "2001-10-07",
+      "numero_paginas": 663,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 40,
+    "fields": {
+      "autor": 10,
+      "titulo": "El asesinato de Roger Ackroyd",
+      "isbn": "9780000000040",
+      "genero": "Misterio",
+      "fecha_publicacion": "2008-01-12",
+      "numero_paginas": 700,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 41,
+    "fields": {
+      "autor": 11,
+      "titulo": "Estudio en escarlata",
+      "isbn": "9780000000041",
+      "genero": "Misterio",
+      "fecha_publicacion": "2015-04-17",
+      "numero_paginas": 737,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 42,
+    "fields": {
+      "autor": 11,
+      "titulo": "El signo de los cuatro",
+      "isbn": "9780000000042",
+      "genero": "Misterio",
+      "fecha_publicacion": "2022-07-22",
+      "numero_paginas": 774,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 43,
+    "fields": {
+      "autor": 11,
+      "titulo": "El sabueso de los Baskerville",
+      "isbn": "9780000000043",
+      "genero": "Misterio",
+      "fecha_publicacion": "1955-10-27",
+      "numero_paginas": 811,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 44,
+    "fields": {
+      "autor": 11,
+      "titulo": "Las aventuras de Sherlock Holmes",
+      "isbn": "9780000000044",
+      "genero": "Misterio",
+      "fecha_publicacion": "1962-01-05",
+      "numero_paginas": 848,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 45,
+    "fields": {
+      "autor": 12,
+      "titulo": "El cuervo",
+      "isbn": "9780000000045",
+      "genero": "Poesía",
+      "fecha_publicacion": "1969-04-10",
+      "numero_paginas": 885,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 46,
+    "fields": {
+      "autor": 12,
+      "titulo": "El corazón delator",
+      "isbn": "9780000000046",
+      "genero": "Terror",
+      "fecha_publicacion": "1976-07-15",
+      "numero_paginas": 922,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 47,
+    "fields": {
+      "autor": 12,
+      "titulo": "La caída de la Casa Usher",
+      "isbn": "9780000000047",
+      "genero": "Terror",
+      "fecha_publicacion": "1983-10-20",
+      "numero_paginas": 959,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 48,
+    "fields": {
+      "autor": 13,
+      "titulo": "Don Quijote de la Mancha",
+      "isbn": "9780000000048",
+      "genero": "Novela",
+      "fecha_publicacion": "1990-01-25",
+      "numero_paginas": 996,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 49,
+    "fields": {
+      "autor": 13,
+      "titulo": "Novelas ejemplares",
+      "isbn": "9780000000049",
+      "genero": "Novela",
+      "fecha_publicacion": "1997-04-03",
+      "numero_paginas": 133,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 50,
+    "fields": {
+      "autor": 13,
+      "titulo": "La Galatea",
+      "isbn": "9780000000050",
+      "genero": "Novela",
+      "fecha_publicacion": "2004-07-08",
+      "numero_paginas": 170,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 51,
+    "fields": {
+      "autor": 14,
+      "titulo": "Hamlet",
+      "isbn": "9780000000051",
+      "genero": "Teatro",
+      "fecha_publicacion": "2011-10-13",
+      "numero_paginas": 207,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 52,
+    "fields": {
+      "autor": 14,
+      "titulo": "Romeo y Julieta",
+      "isbn": "9780000000052",
+      "genero": "Teatro",
+      "fecha_publicacion": "2018-01-18",
+      "numero_paginas": 244,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 53,
+    "fields": {
+      "autor": 14,
+      "titulo": "Macbeth",
+      "isbn": "9780000000053",
+      "genero": "Teatro",
+      "fecha_publicacion": "1951-04-23",
+      "numero_paginas": 281,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 54,
+    "fields": {
+      "autor": 15,
+      "titulo": "El retrato de Dorian Gray",
+      "isbn": "9780000000054",
+      "genero": "Novela",
+      "fecha_publicacion": "1958-07-01",
+      "numero_paginas": 318,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 55,
+    "fields": {
+      "autor": 15,
+      "titulo": "El fantasma de Canterville",
+      "isbn": "9780000000055",
+      "genero": "Cuento",
+      "fecha_publicacion": "1965-10-06",
+      "numero_paginas": 355,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 56,
+    "fields": {
+      "autor": 15,
+      "titulo": "La importancia de llamarse Ernesto",
+      "isbn": "9780000000056",
+      "genero": "Teatro",
+      "fecha_publicacion": "1972-01-11",
+      "numero_paginas": 392,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 57,
+    "fields": {
+      "autor": 16,
+      "titulo": "El viejo y el mar",
+      "isbn": "9780000000057",
+      "genero": "Novela",
+      "fecha_publicacion": "1979-04-16",
+      "numero_paginas": 429,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 58,
+    "fields": {
+      "autor": 16,
+      "titulo": "Por quién doblan las campanas",
+      "isbn": "9780000000058",
+      "genero": "Novela",
+      "fecha_publicacion": "1986-07-21",
+      "numero_paginas": 466,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 59,
+    "fields": {
+      "autor": 16,
+      "titulo": "Fiesta",
+      "isbn": "9780000000059",
+      "genero": "Novela",
+      "fecha_publicacion": "1993-10-26",
+      "numero_paginas": 503,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 60,
+    "fields": {
+      "autor": 17,
+      "titulo": "La metamorfosis",
+      "isbn": "9780000000060",
+      "genero": "Novela",
+      "fecha_publicacion": "2000-01-04",
+      "numero_paginas": 540,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 61,
+    "fields": {
+      "autor": 17,
+      "titulo": "El proceso",
+      "isbn": "9780000000061",
+      "genero": "Novela",
+      "fecha_publicacion": "2007-04-09",
+      "numero_paginas": 577,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 62,
+    "fields": {
+      "autor": 17,
+      "titulo": "El castillo",
+      "isbn": "9780000000062",
+      "genero": "Novela",
+      "fecha_publicacion": "2014-07-14",
+      "numero_paginas": 614,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 63,
+    "fields": {
+      "autor": 18,
+      "titulo": "Crimen y castigo",
+      "isbn": "9780000000063",
+      "genero": "Novela",
+      "fecha_publicacion": "2021-10-19",
+      "numero_paginas": 651,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 64,
+    "fields": {
+      "autor": 18,
+      "titulo": "Los hermanos Karamázov",
+      "isbn": "9780000000064",
+      "genero": "Novela",
+      "fecha_publicacion": "1954-01-24",
+      "numero_paginas": 688,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 65,
+    "fields": {
+      "autor": 18,
+      "titulo": "El idiota",
+      "isbn": "9780000000065",
+      "genero": "Novela",
+      "fecha_publicacion": "1961-04-02",
+      "numero_paginas": 725,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 66,
+    "fields": {
+      "autor": 19,
+      "titulo": "Guerra y paz",
+      "isbn": "9780000000066",
+      "genero": "Novela",
+      "fecha_publicacion": "1968-07-07",
+      "numero_paginas": 762,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 67,
+    "fields": {
+      "autor": 19,
+      "titulo": "Anna Karénina",
+      "isbn": "9780000000067",
+      "genero": "Novela",
+      "fecha_publicacion": "1975-10-12",
+      "numero_paginas": 799,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 68,
+    "fields": {
+      "autor": 19,
+      "titulo": "La muerte de Iván Ilich",
+      "isbn": "9780000000068",
+      "genero": "Novela",
+      "fecha_publicacion": "1982-01-17",
+      "numero_paginas": 836,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 69,
+    "fields": {
+      "autor": 20,
+      "titulo": "Los miserables",
+      "isbn": "9780000000069",
+      "genero": "Novela",
+      "fecha_publicacion": "1989-04-22",
+      "numero_paginas": 873,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 70,
+    "fields": {
+      "autor": 20,
+      "titulo": "Nuestra Señora de París",
+      "isbn": "9780000000070",
+      "genero": "Novela",
+      "fecha_publicacion": "1996-07-27",
+      "numero_paginas": 910,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 71,
+    "fields": {
+      "autor": 20,
+      "titulo": "El hombre que ríe",
+      "isbn": "9780000000071",
+      "genero": "Novela",
+      "fecha_publicacion": "2003-10-05",
+      "numero_paginas": 947,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 72,
+    "fields": {
+      "autor": 21,
+      "titulo": "Orgullo y prejuicio",
+      "isbn": "9780000000072",
+      "genero": "Novela",
+      "fecha_publicacion": "2010-01-10",
+      "numero_paginas": 984,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 73,
+    "fields": {
+      "autor": 21,
+      "titulo": "Sentido y sensibilidad",
+      "isbn": "9780000000073",
+      "genero": "Novela",
+      "fecha_publicacion": "2017-04-15",
+      "numero_paginas": 121,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 74,
+    "fields": {
+      "autor": 21,
+      "titulo": "Emma",
+      "isbn": "9780000000074",
+      "genero": "Novela",
+      "fecha_publicacion": "1950-07-20",
+      "numero_paginas": 158,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 75,
+    "fields": {
+      "autor": 22,
+      "titulo": "Oliver Twist",
+      "isbn": "9780000000075",
+      "genero": "Novela",
+      "fecha_publicacion": "1957-10-25",
+      "numero_paginas": 195,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 76,
+    "fields": {
+      "autor": 22,
+      "titulo": "Grandes esperanzas",
+      "isbn": "9780000000076",
+      "genero": "Novela",
+      "fecha_publicacion": "1964-01-03",
+      "numero_paginas": 232,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 77,
+    "fields": {
+      "autor": 22,
+      "titulo": "David Copperfield",
+      "isbn": "9780000000077",
+      "genero": "Novela",
+      "fecha_publicacion": "1971-04-08",
+      "numero_paginas": 269,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 78,
+    "fields": {
+      "autor": 23,
+      "titulo": "El hobbit",
+      "isbn": "9780000000078",
+      "genero": "Fantasía",
+      "fecha_publicacion": "1978-07-13",
+      "numero_paginas": 306,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 79,
+    "fields": {
+      "autor": 23,
+      "titulo": "La comunidad del anillo",
+      "isbn": "9780000000079",
+      "genero": "Fantasía",
+      "fecha_publicacion": "1985-10-18",
+      "numero_paginas": 343,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 80,
+    "fields": {
+      "autor": 23,
+      "titulo": "Las dos torres",
+      "isbn": "9780000000080",
+      "genero": "Fantasía",
+      "fecha_publicacion": "1992-01-23",
+      "numero_paginas": 380,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 81,
+    "fields": {
+      "autor": 23,
+      "titulo": "El retorno del rey",
+      "isbn": "9780000000081",
+      "genero": "Fantasía",
+      "fecha_publicacion": "1999-04-01",
+      "numero_paginas": 417,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 82,
+    "fields": {
+      "autor": 24,
+      "titulo": "El código Da Vinci",
+      "isbn": "9780000000082",
+      "genero": "Suspenso",
+      "fecha_publicacion": "2006-07-06",
+      "numero_paginas": 454,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 83,
+    "fields": {
+      "autor": 24,
+      "titulo": "Ángeles y demonios",
+      "isbn": "9780000000083",
+      "genero": "Suspenso",
+      "fecha_publicacion": "2013-10-11",
+      "numero_paginas": 491,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 84,
+    "fields": {
+      "autor": 24,
+      "titulo": "Inferno",
+      "isbn": "9780000000084",
+      "genero": "Suspenso",
+      "fecha_publicacion": "2020-01-16",
+      "numero_paginas": 528,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 85,
+    "fields": {
+      "autor": 25,
+      "titulo": "Tokio blues",
+      "isbn": "9780000000085",
+      "genero": "Novela",
+      "fecha_publicacion": "1953-04-21",
+      "numero_paginas": 565,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 86,
+    "fields": {
+      "autor": 25,
+      "titulo": "Kafka en la orilla",
+      "isbn": "9780000000086",
+      "genero": "Novela",
+      "fecha_publicacion": "1960-07-26",
+      "numero_paginas": 602,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 87,
+    "fields": {
+      "autor": 25,
+      "titulo": "1Q84",
+      "isbn": "9780000000087",
+      "genero": "Novela",
+      "fecha_publicacion": "1967-10-04",
+      "numero_paginas": 639,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 88,
+    "fields": {
+      "autor": 26,
+      "titulo": "El principito",
+      "isbn": "9780000000088",
+      "genero": "Fábula",
+      "fecha_publicacion": "1974-01-09",
+      "numero_paginas": 676,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 89,
+    "fields": {
+      "autor": 26,
+      "titulo": "Vuelo nocturno",
+      "isbn": "9780000000089",
+      "genero": "Novela",
+      "fecha_publicacion": "1981-04-14",
+      "numero_paginas": 713,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 90,
+    "fields": {
+      "autor": 26,
+      "titulo": "Tierra de hombres",
+      "isbn": "9780000000090",
+      "genero": "Memorias",
+      "fecha_publicacion": "1988-07-19",
+      "numero_paginas": 750,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 91,
+    "fields": {
+      "autor": 27,
+      "titulo": "1984",
+      "isbn": "9780000000091",
+      "genero": "Distopía",
+      "fecha_publicacion": "1995-10-24",
+      "numero_paginas": 787,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 92,
+    "fields": {
+      "autor": 27,
+      "titulo": "Rebelión en la granja",
+      "isbn": "9780000000092",
+      "genero": "Sátira",
+      "fecha_publicacion": "2002-01-02",
+      "numero_paginas": 824,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 93,
+    "fields": {
+      "autor": 27,
+      "titulo": "Homenaje a Cataluña",
+      "isbn": "9780000000093",
+      "genero": "Memorias",
+      "fecha_publicacion": "2009-04-07",
+      "numero_paginas": 861,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 94,
+    "fields": {
+      "autor": 28,
+      "titulo": "Siddhartha",
+      "isbn": "9780000000094",
+      "genero": "Novela",
+      "fecha_publicacion": "2016-07-12",
+      "numero_paginas": 898,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 95,
+    "fields": {
+      "autor": 28,
+      "titulo": "El lobo estepario",
+      "isbn": "9780000000095",
+      "genero": "Novela",
+      "fecha_publicacion": "2023-10-17",
+      "numero_paginas": 935,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 96,
+    "fields": {
+      "autor": 28,
+      "titulo": "Demian",
+      "isbn": "9780000000096",
+      "genero": "Novela",
+      "fecha_publicacion": "1956-01-22",
+      "numero_paginas": 972,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 97,
+    "fields": {
+      "autor": 29,
+      "titulo": "La señora Dalloway",
+      "isbn": "9780000000097",
+      "genero": "Novela",
+      "fecha_publicacion": "1963-04-27",
+      "numero_paginas": 1009,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 98,
+    "fields": {
+      "autor": 29,
+      "titulo": "Al faro",
+      "isbn": "9780000000098",
+      "genero": "Novela",
+      "fecha_publicacion": "1970-07-05",
+      "numero_paginas": 146,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 99,
+    "fields": {
+      "autor": 29,
+      "titulo": "Orlando",
+      "isbn": "9780000000099",
+      "genero": "Novela",
+      "fecha_publicacion": "1977-10-10",
+      "numero_paginas": 183,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 100,
+    "fields": {
+      "autor": 30,
+      "titulo": "Frankenstein",
+      "isbn": "9780000000100",
+      "genero": "Terror",
+      "fecha_publicacion": "1984-01-15",
+      "numero_paginas": 220,
+      "idioma": "Español",
+      "disponible": false,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 101,
+    "fields": {
+      "autor": 30,
+      "titulo": "El último hombre",
+      "isbn": "9780000000101",
+      "genero": "Ciencia ficción",
+      "fecha_publicacion": "1991-04-20",
+      "numero_paginas": 257,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  },
+  {
+    "model": "catalogo.libro",
+    "pk": 102,
+    "fields": {
+      "autor": 30,
+      "titulo": "Mathilda",
+      "isbn": "9780000000102",
+      "genero": "Novela",
+      "fecha_publicacion": "1998-07-25",
+      "numero_paginas": 294,
+      "idioma": "Español",
+      "disponible": true,
+      "creado_en": "2026-07-21T03:26:18.112455Z",
+      "actualizado_en": "2026-07-21T03:26:18.112455Z"
+    }
+  }
+]
